@@ -1,3 +1,44 @@
+/* Los paradigmas mas comunes */
+
+// imperactivo
+let arr = []
+
+for (let i = 0; i < 10; i++) {
+  arr[i] = i;
+}
+console.log(arr)
+
+
+// funcional
+let arr = Array(10).fill(0);
+arr = arr.map((e, i) => i);
+console.log(arr)
+
+
+// POO or OOP
+
+class persona {
+  constructor(nombre, apellido, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.apellido = apellido;
+  }
+
+  saludar(nombre) {
+    console.log("hola " + nombre);
+  }
+}
+
+
+let heger = new persona("heger", "arias santos", 18);
+
+
+
+
+
+
+
+
 // let / var son las palabras reservadas para declarar variables
 // const es la forma de declarar constante
 
