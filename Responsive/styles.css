@@ -1,0 +1,26 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: red;
+}
+
+@media (max-width:1000px) {
+  .container{
+    background: blue;
+  }
+  
+}
+
+@media (max-width:800px) {
+  .container{
+    background: black;
+  }
+}
+
+@media (max-width:500px) {
+  .container{
+    background: green;
+  }
+  
+}
+

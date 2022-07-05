@@ -1,0 +1,54 @@
+$color-red: #ff0000;
+$color-green: #00ff00;
+$color-blue: #0000ff;
+
+*{
+  box-sizing: border-box;
+  // margin: 0;
+  // padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.card{
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  @extend .center;
+  align-items: center;
+  &__title{
+    color: $color-blue;
+  }
+  &__description{
+    text-align: center;    
+  }
+  &__description--small{
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  &__button{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: $color-red;
+    color: #fff;
+    border: none;
+    margin-top:20px ;
+    &:hover{
+      background-color: $color-green;
+    }
+    &:active{
+      background-color: $color-blue;
+    }
+  }
+}

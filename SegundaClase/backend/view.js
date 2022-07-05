@@ -10,6 +10,10 @@
 500s: Códigos de error del servidor que indican que la solicitud fue aceptada, pero que un error en el servidor impidió que se cumpliera.
 */
 
+// !{Protocolo}  {          URL base }{Parametros                                     }{Query String}
+// * https:    //www.freecodecamp.org/learn/javascript-algorithms-and-data-structures?sk=challenges&challengeId=5d5f9c8b9f9d4400009f9f8f
+
+
 const http = require('http');
 const controller = require('./controller')
 
